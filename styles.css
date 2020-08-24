@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+    margin: 0 auto;
+
+    
+}
+
+body {
+    background-image: url(./assets/prestige\ background.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: right;
+    background-attachment: scroll;
+
+}
+
+     /* Main Layout */
+
+     
+
+.logo {
+    display: block;
+    width: 60%;
+    margin: 7em auto;
+    
+}
+
+h1,
+h2,
+h3,
+p { 
+    text-align: center;
+    width: 40%;
+    margin: 15px auto;
+    padding: 2rem;
+    font-size: 2.625rem;
+}
+
+
+.button {
+    display: block;
+    
+    background-color: #000000;
+    box-shadow: 5px 8px 5px #00000029;
+    border: 0.25px solid #E1E1E1;
+    border-radius: 17px;
+    margin: 30px auto;
+    text-align: center;
+    width: 10em;
+    
+    
+}
+
+a {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 1.5625rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.info a {
+    font-size: 2.625rem;
+    color: blue;
+
+}
+.info p {
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+}
+
+    /* image slideshow */
+
+.slide-holder {
+    display: flex;
+    padding: 60px;
+
+}
+
+.slideshow {
+
+    width: 640px;
+    height: 365px;
+}
+
+
+     /* Media Query */
+
+
+@media (max-width: 940px) {
+
+
+.logo-bar {
+    width: 100%;
+    height: 2.875rem; 
+    border: 2px solid #c5c5c5;
+    border-radius: 6px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: #d9d9d9;
+}
+
+.logo {
+    width: 11.875rem;
+    height: 1.9375rem;
+    margin: 0.3125rem auto;
+}
+
+h1,
+h2,
+h3,
+p {
+
+    width: 95%;
+    font-size: 1.5625rem;
+}
+
+h2 {
+    padding: 15px;
+}
+
+.info a {
+    font-size: 1.5625rem;
+    
+    }
+.slide-holder {
+    display: flex;
+}
+.slideshow {
+    
+    justify-content: center;
+    width: 253px;
+    height: 147px;
+
+}
+    }
